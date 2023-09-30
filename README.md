@@ -1,6 +1,36 @@
 # dynamic
 Dynamic Optimization Method
 
+# method
+For example:
+
+P=α0+α1x1+α2x2
+
+Then:
+
+X= α0α1α2
+
+If data point is: 
+
+` `data = [(a<sub>1</sub>,a<sub>2</sub>,p<sub>1</sub>), (a<sub>3</sub>,a<sub>4</sub>,p<sub>2</sub>),…, (a<sub>5</sub>,a<sub>6</sub>,p<sub>3</sub>), (a<sub>7</sub>,a<sub>8</sub>,p<sub>4</sub>)]
+
+K=1x1x2 → S=11a1a3a2a4…11a5a7a6a8 
+
+P=STX
+
+xn+1=xn+ηAcosωt
+
+Where:
+
+A=-RMω2cosωt=-RSTcosωt
+
+M = S2
+
+ω=SM=2
+
+cost = RT.Rn
+
+
 # code
 ```python
 # Input data points
