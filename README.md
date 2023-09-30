@@ -27,7 +27,7 @@ A=-(R/Mω^2)cos(ωt)=-(R/S^T)cos(ωt)
 
 M = S/2
 
-ω=sqrt(S/M)=2
+ω=sqrt(S/M)=sqrt(2)
 
 cost = (R^T).R/n
 n is number of inputs
